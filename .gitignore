@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# 密钥 / 环境变量 —— 绝不入库
+.env
+*.key
+*.pem
+
+# 生成物(用 ingest.py 可重建,不必入库)
+faq_index.npz
+
+# 第三方素材:小红书截图含他人用户名/水印,不公开发布
+租房经验/
+
+# 项目协作说明:含个人求职信息,不公开
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
